@@ -21,7 +21,7 @@ function Navbar() {
   return (
     <header className="padding-x relative z-10 w-full py-3">
       <nav className="relative flex items-center justify-between">
-        <a className="fonts-montserrat px-5 text-[30px] font-bold text-gray-400">
+        <a className="fonts-montserrat bg-gradient-to-r from-violet-600 via-blue-400 to-indigo-600 bg-clip-text px-5 text-[30px] font-bold text-transparent">
           At{" "}
         </a>
         <button
