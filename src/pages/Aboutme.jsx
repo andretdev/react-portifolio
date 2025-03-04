@@ -1,45 +1,28 @@
-import background from "../assets/aboutmeback.jpg";
+import coder from "../assets/coder.jpg";
 
 function Aboutme() {
   return (
     <section
       id="aboutme"
-      className="relative flex min-h-screen w-full flex-col overflow-hidden border-2 border-red-500 xl:flex-row"
+      className="px-35 flex min-h-screen flex-row items-center justify-center gap-10"
     >
-      <div className="fixed top-0 -z-10 h-full w-full">
-        <div class="absolute top-0 z-[-2] h-screen w-screen bg-white bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"></div>
-      </div>
-
-      <div className="max-xl:padding-x relative flex w-full flex-col items-start justify-center border-2 border-red-500 px-10 pt-28 xl:w-4/5">
-        <h1 className="">
-          <span className="font-montserrat bg-gradient-to-r from-violet-600 via-blue-400 to-indigo-600 bg-clip-text text-7xl font-bold text-transparent">
-            Andre Tiago,
-          </span>
+      <div className="flex flex-col justify-center xl:w-4/5">
+        <h2 className="font-sans text-6xl text-gray-500">
+          Hi, Im Andre Tiago!
           <br />
-          <p className="mt-1 text-2xl text-white"> Software Developer </p>
-        </h1>
-        <p className="mt-1 text-yellow-700">
-          A full stack junior developer with a passion for creating and
-          developing web applications. I am a quick learner and a team player
+          <span>Software Developer</span>
+        </h2>
+        <p className="text-md mt-5 text-balance font-sans text-white">
+          Im a Full-Stack developer always using my skills to create and inovate
+          developing full-stack aplications, been passionate about technology
+          since I was a kid, I am a quick learner and a team player
         </p>
-        <button className="mt-10 rounded-[14px] bg-blue-400 px-4 py-2 font-medium shadow-xl">
-          Download CV
-        </button>
-        <div class="animate-rotate-border hover:bg-conic/[from_var(--border-angle)] mt-2 cursor-pointer rounded-[14px] from-black from-80% via-blue-500 via-90% to-black to-100% p-[1px] transition-all duration-500 ease-out hover:scale-[1.03]">
-          <button class="font-lg w-full rounded-[14px] border border-neutral-800 bg-violet-600 px-4 py-2 text-center text-lg text-white/50">
-            Download CV
-          </button>
-        </div>
       </div>
-
-      <div className="max-xl:padding-x flex w-full items-center justify-center border-2 border-red-500">
-        <img
-          src={background}
-          className="absolute -z-10 h-full w-full object-fill"
-        ></img>
+      <div className="h-140 w-210 flex items-center justify-center rounded-full">
+        <img src={coder} className="h-full rounded-full object-cover" />
+        <div className="z-40 h-full w-full rounded-full border border-red-500 bg-amber-200 blur-2xl"></div>
       </div>
     </section>
   );
 }
-
 export default Aboutme;
