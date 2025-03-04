@@ -34,10 +34,10 @@ function Navbar() {
           className={`flex flex-1 items-center justify-end gap-16 px-10 max-lg:hidden`}
         >
           {sections.map((section) => (
-            <li key={section.id}>
+            <li key={section.id} className="border border-red-500">
               <a
                 href={`#${section.id}`}
-                className="fonts-montserrat text-slate-blue-500 text-lg leading-normal text-gray-400 hover:text-blue-400"
+                className="fonts-montserrat text-slate-blue-500 border-indigo-500 text-lg leading-normal text-gray-400 transition duration-500 hover:border-b-4 hover:text-blue-400"
               >
                 {section.title}
               </a>
