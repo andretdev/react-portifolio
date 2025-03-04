@@ -6,7 +6,7 @@ function Footer() {
       id="footer"
       className="flex w-full border-2 border-red-500 xl:flex-row"
     >
-      <footer class="w-full bg-white shadow-sm">
+      <footer class="w-full shadow-sm">
         <div class="mx-auto w-full max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
           <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">
             © 2025{" "}
