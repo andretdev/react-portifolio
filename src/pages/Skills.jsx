@@ -2,20 +2,35 @@ function Skills() {
   return (
     <section
       id="skills"
-      className="flex min-h-screen w-full flex-col justify-center gap-5 border-2 border-red-500 p-5 xl:flex-row"
+      className="flex- relative flex h-auto w-full flex-col items-center justify-center gap-5 border-2 border-red-500 p-5 xl:flex-row"
     >
-      <div className="animate-appear-left flex w-full flex-col justify-center rounded-2xl border border-gray-400 px-10 shadow-lg xl:w-3/5">
-        <h3 className="flex justify-center text-5xl text-black">Skills</h3>
+      <div className="animate-appear-bottom bg-specific mb-4 flex w-full flex-col scroll-smooth rounded-2xl px-10 shadow-lg shadow-gray-600">
+        <div className="flex h-20 w-full items-center justify-center">
+          <h3 className="py-5 text-5xl text-gray-500">Skills</h3>
+        </div>
 
-        <ul className="text-black">
-          <li className="hover:bg-radial-[at_50%_75%] transtion from-sky-200 via-blue-400 to-indigo-900 to-90% duration-500 ease-out hover:bg-opacity-50">
-            HTML
-          </li>
-          <li className="">HTML</li>
-          <li className="">HTML</li>
-          <li className="">HTML</li>
-          <li className="">HTML</li>
-        </ul>
+        <div className="flex flex-row justify-between gap-5 p-10 text-gray-500">
+          <div className="">
+            <p className="border border-red-500 from-gray-500 to-gray-600 hover:bg-gradient-to-r">
+              JavasScript
+            </p>
+            <p>React</p>
+            <p>Node</p>
+            <p>Python</p>
+            <p>SQL</p>
+            <p>Rest API</p>
+          </div>
+          <div>
+            <p className="border border-red-500 from-gray-500 to-gray-600 hover:bg-gradient-to-r">
+              JavasScript
+            </p>
+            <p>React</p>
+            <p>Node</p>
+            <p>Python</p>
+            <p>SQL</p>
+            <p>Rest API</p>
+          </div>
+        </div>
       </div>
     </section>
   );
