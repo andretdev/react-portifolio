@@ -1,13 +1,16 @@
 import Navbar from "./layouts/Navbar";
-import Aboutme from "./pages/Aboutme";
+import Home from "./pages/Home";
 import Footer from "./pages/Footer";
 import Skills from "./pages/Skills";
-
+import Aboutme from "./pages/Aboutme";
 function App() {
   return (
     <main>
       <section>
         <Navbar />
+      </section>
+      <section>
+        <Home />
       </section>
       <section>
         <Aboutme />
