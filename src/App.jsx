@@ -3,6 +3,8 @@ import Home from "./pages/Home";
 import Footer from "./pages/Footer";
 import Skills from "./pages/Skills";
 import Aboutme from "./pages/Aboutme";
+import { Button } from "./components/ui/button";
+
 function App() {
   return (
     <main>
