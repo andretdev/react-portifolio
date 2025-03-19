@@ -13,8 +13,9 @@
   .animate-appear-bottom {
     animation: appear-bottom linear;
     animation-timeline: view();
-    animation-range: entry 0% cover 40%;
-    timeline: 2000ms;
+    animation-range: entry 0% cover 10%;
+    timeline: 5s;
+    animation-timing-function: ease-in-out;
   }
 
   .animate-appear-top {
@@ -28,67 +29,58 @@
     animation: appear-left linear;
     animation-timeline: view();
     animation-range: entry 0% cover 30%;
-    timeline: 9000ms;
+    timeline: 10000ms;
   }
 
   .animate-appear-right {
     animation: appear-right linear;
     animation-timeline: view();
     animation-range: entry 0% cover 30%;
-    timeline: 2000ms;
+    timeline: 10000ms;
   }
 }
 
-@theme {
-  --animate-rotate-border: border-rotate 3s linear infinite;
-
-  @keyframes border-rotate {
-    to {
-      --border-angle: 360deg;
-    }
+@keyframes appear-bottom {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
   }
-  @keyframes appear-bottom {
-    from {
-      transform: translateY(100%);
-      opacity: 0;
-    }
-    to {
-      transform: translateY(0);
-      opacity: 1;
-    }
+  to {
+    transform: translateY(0);
+    opacity: 1;
   }
+}
 
-  @keyframes appear-top {
-    from {
-      transform: translateY(-100%);
-      opacity: 0;
-    }
-    to {
-      transform: translateY(0);
-      opacity: 1;
-    }
+@keyframes appear-top {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
   }
-
-  @keyframes appear-left {
-    from {
-      transform: translateX(-100%);
-      opacity: 0;
-    }
-    to {
-      transform: translateX(0);
-      opacity: 1;
-    }
+  to {
+    transform: translateY(0);
+    opacity: 1;
   }
+}
 
-  @keyframes appear-right {
-    from {
-      transform: translateX(100%);
-      opacity: 0;
-    }
-    to {
-      transform: translateX(0);
-      opacity: 1;
-    }
+@keyframes appear-left {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes appear-right {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
   }
 }
 
