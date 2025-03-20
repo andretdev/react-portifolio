@@ -1,17 +1,18 @@
 import { Button } from "@/components/ui/button";
 import background from "../assets/home.jpg";
+import resume from "../assets/Resume.pdf";
 
 function Home() {
   return (
     <section
       id="home"
-      className="relative flex min-h-screen w-full flex-col overflow-hidden border-2 border-red-500 max-sm:flex-col xl:flex-row"
+      className="relative flex min-h-screen w-full flex-col overflow-hidden max-sm:flex-col xl:flex-row"
     >
       <div className="fixed inset-0 -z-10 overflow-hidden">
         <div class="absolute top-0 z-[-2] h-screen w-screen bg-white bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"></div>
       </div>
 
-      <div className="max-xl:padding-x relative flex flex-col items-start justify-center border-2 border-red-500 px-10 pt-28 xl:w-3/6">
+      <div className="max-xl:padding-x px-15 relative flex flex-col items-start justify-center pt-28 xl:w-3/6">
         <div className="relative rounded-2xl bg-gray-900/30 p-10 max-sm:w-60">
           <h1 className="">
             <span className="font-montserrat bg-gradient-to-r from-gray-600 via-gray-500 to-gray-700 bg-clip-text text-7xl font-bold text-transparent max-sm:text-6xl">
@@ -28,7 +29,11 @@ function Home() {
           </p>
         </div>
         <div className="flex h-20 w-auto flex-row items-center justify-center gap-4">
-          <Button>Download CV</Button>
+          <Button asChild>
+            <a href={resume} download="Resume.pdf">
+              Download CV
+            </a>
+          </Button>
           <a
             href="https://www.linkedin.com/in/andre-silva-36a377262/"
             target="_blank"

@@ -23,7 +23,7 @@ function Navbar() {
       <nav className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <a className="from-primary via-sidebar-primary to-accent-foreground bg-gradient-to-r bg-clip-text text-3xl font-bold text-transparent">
-            At
+            AT
           </a>
 
           <button

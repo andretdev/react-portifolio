@@ -14,7 +14,7 @@ function Skills() {
   return (
     <section
       id="skills"
-      className="flex h-auto min-h-screen flex-col items-center gap-10 border-2 border-red-500 px-5 py-20 max-sm:py-10"
+      className="flex h-auto min-h-screen flex-col items-center gap-10 px-5 py-20 max-sm:py-10"
     >
       <div className="animate-appear-left flex h-auto w-full flex-row items-center justify-between rounded-2xl bg-gray-900/30 px-10 shadow-[0_0_15px_rgba(0,0,0,0.2)] backdrop-blur-sm transition-shadow duration-300 hover:shadow-[0_0_25px_rgba(0,0,0,0.3)] max-sm:flex-col max-sm:px-4">
         <div className="animate-appear-bottom w-1/3 justify-center transition-all duration-500 ease-in-out max-sm:w-full max-sm:text-center">
