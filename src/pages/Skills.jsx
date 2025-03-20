@@ -57,12 +57,12 @@ function Skills() {
       <div className="animate-appear-right flex h-60 w-full flex-row items-center justify-between rounded-2xl bg-gray-900/30 px-10 shadow-[0_0_15px_rgba(0,0,0,0.2)] backdrop-blur-sm transition-shadow duration-300 hover:shadow-[0_0_25px_rgba(0,0,0,0.3)] max-md:h-auto max-sm:h-auto max-sm:flex-col max-sm:px-4">
         <div className="animate-appear-bottom w-1/3 justify-center transition-all duration-500 ease-in-out max-sm:w-full max-sm:text-center">
           <h2 className="bg-gradient-to-r from-gray-400 to-gray-600 bg-clip-text font-sans text-5xl text-transparent max-sm:mt-5 max-sm:text-3xl">
-            Development Skills
+            Other Skills
           </h2>
           <hr className="w-100 xl:w-90 mt-2 bg-gray-500 max-lg:w-auto max-md:w-auto max-sm:w-auto" />
           <p className="text-md mt-5 text-balance text-left font-sans text-gray-800 max-sm:mt-1 max-sm:px-4 max-sm:text-left">
-            As a developer, I am continually learning and mastering my
-            programming skills to stay up to date with the latest technologies.
+            I am continuously enhancing my development and management skills to
+            contribute effectively in a team environment.
           </p>
         </div>
         <div className="flex w-2/3 flex-wrap gap-4 p-5 max-sm:w-full max-sm:gap-3 max-sm:p-3">
