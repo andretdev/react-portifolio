@@ -22,9 +22,9 @@ function Navbar() {
     <header className="bg-background/80 border-border/40 fixed top-0 z-50 w-full border-b shadow-sm backdrop-blur-sm">
       <nav className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
-          <a className="from-primary via-sidebar-primary to-accent-foreground bg-gradient-to-r bg-clip-text text-3xl font-bold text-transparent">
+          <p className="from-primary via-sidebar-primary to-accent-foreground bg-gradient-to-r bg-clip-text text-3xl font-bold text-transparent">
             AT
-          </a>
+          </p>
 
           <button
             className="text-foreground relative h-10 w-10 focus:outline-none lg:hidden"

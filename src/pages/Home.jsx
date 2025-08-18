@@ -9,7 +9,7 @@ function Home() {
       className="relative flex min-h-screen w-full flex-col overflow-hidden max-sm:flex-col xl:flex-row"
     >
       <div className="fixed inset-0 -z-10 overflow-hidden">
-        <div class="absolute top-0 z-[-2] h-screen w-screen bg-white bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"></div>
+        <div className="absolute top-0 z-[-2] h-screen w-screen bg-white bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"></div>
       </div>
 
       <div className="max-xl:padding-x px-15 relative flex flex-col items-start justify-center pt-28 xl:w-3/6">
