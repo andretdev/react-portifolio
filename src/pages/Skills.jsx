@@ -29,28 +29,32 @@ function Skills() {
         </div>
         <div className="flex w-2/3 flex-wrap gap-4 p-5 max-sm:w-full max-sm:gap-3 max-sm:p-3">
           <div className="animate-appear-left [animation-delay:100ms]">
-            <Skill text="React" link={react} />
+            <Skill text="React" link={react} descrip="React" />
           </div>
           <div>
-            <Skill text="JavasScript" link={javascript} />
+            <Skill text="JavasScript" link={javascript} descrip="JavasScript" />
           </div>
           <div>
-            <Skill text="HTML5" link={html} />
+            <Skill text="HTML5" link={html} descrip="HTML5" />
           </div>
           <div>
-            <Skill text="Python" link={python} />
+            <Skill text="Python" link={python} descrip="Python" />
           </div>
           <div>
-            <Skill text="SQL" link={sqlite} />
+            <Skill text="SQL" link={sqlite} descrip="SQL" />
           </div>
           <div>
-            <Skill text="PostgreSQL" link={postgresql} />
+            <Skill text="PostgreSQL" link={postgresql} descrip="PostgreSQL" />
           </div>
           <div>
-            <Skill text="CSS" link={css} />
+            <Skill text="CSS" link={css} descrip="CSS" />
           </div>
           <div>
-            <Skill text="Tailwindcss" link={tailwindcss} />
+            <Skill
+              text="Tailwindcss"
+              link={tailwindcss}
+              descrip="Tailwindcss"
+            />
           </div>
         </div>
       </div>
@@ -67,13 +71,13 @@ function Skills() {
         </div>
         <div className="flex w-2/3 flex-wrap gap-4 p-5 max-sm:w-full max-sm:gap-3 max-sm:p-3">
           <div>
-            <Skill text="GitHub" link={github} />
+            <Skill text="GitHub" link={github} descrip="GitHub" />
           </div>
           <div>
-            <Skill text="Git" link={git} />
+            <Skill text="Git" link={git} descrip="Git" />
           </div>
           <div>
-            <Skill text="Docker" link={docker} />
+            <Skill text="Docker" link={docker} descrip="Docker" />
           </div>
         </div>
       </div>

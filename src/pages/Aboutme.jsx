@@ -22,7 +22,11 @@ function Aboutme() {
         </p>
       </div>
       <div className="animate-appear-right h-140 w-210 max-sm:h-70 max-sm:w-70 lg:h-130 flex items-center justify-center rounded-full border border-white max-sm:mb-5 sm:hidden lg:block">
-        <img src={coder} className="h-full rounded-full object-cover" />
+        <img
+          alt="Coder"
+          src={coder}
+          className="h-full rounded-full object-cover"
+        />
         <div className="z-40 h-full w-full rounded-full"></div>
       </div>
     </section>

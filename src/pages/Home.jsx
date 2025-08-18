@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import background from "../assets/home.jpg";
-import resume from "../assets/andreresume.pdf";
+import resume from "../assets/My Resume.pdf";
 
 function Home() {
   return (
