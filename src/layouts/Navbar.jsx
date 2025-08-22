@@ -28,6 +28,7 @@ function Navbar() {
 
           <button
             className="text-foreground relative h-10 w-10 focus:outline-none lg:hidden"
+            aria-label="Navbar mobile button"
             onClick={() => setMenuOpen(!menuOpen)}
           >
             <div className="absolute left-1/2 top-1/2 -ml-2.5 -mt-2 h-4 w-5">
@@ -75,7 +76,7 @@ function Navbar() {
                 <li key={section.id}>
                   <a
                     href={`#${section.id}`}
-                    className="text-foreground/70 hover:text-foreground hover:bg-accent/10 block transform rounded-lg px-4 py-2 transition-all duration-300 hover:translate-x-1"
+                    className="text-foreground hover:text-foreground/70 hover:bg-accent/10 block transform rounded-lg px-4 py-2 transition-all duration-300 hover:translate-x-1"
                     onClick={(e) => {
                       e.preventDefault();
                       document
