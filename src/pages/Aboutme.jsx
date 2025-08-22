@@ -25,6 +25,7 @@ function Aboutme() {
         <img
           alt="Coder"
           src={coder}
+          loading="lazy"
           className="h-full rounded-full object-cover"
         />
         <div className="z-40 h-full w-full rounded-full"></div>

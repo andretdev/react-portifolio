@@ -48,7 +48,7 @@ function Navbar() {
               <li key={section.id}>
                 <a
                   href={`#${section.id}`}
-                  className="text-foreground/70 hover:text-foreground before:bg-primary relative text-sm font-medium transition-colors duration-300 before:absolute before:-bottom-2 before:left-0 before:h-0.5 before:w-0 before:transition-all before:duration-300 hover:before:w-full"
+                  className="text-foreground hover:text-foreground/70 before:bg-primary relative text-sm font-medium transition-colors duration-300 before:absolute before:-bottom-2 before:left-0 before:h-0.5 before:w-0 before:transition-all before:duration-300 hover:before:w-full"
                   onClick={(e) => {
                     e.preventDefault();
                     document

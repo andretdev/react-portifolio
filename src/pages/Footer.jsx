@@ -16,6 +16,7 @@ function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-400 transition-colors hover:text-gray-600"
+                  aria-label="Github profile link"
                 >
                   <svg
                     className="h-6 w-6"
@@ -30,6 +31,7 @@ function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-400 transition-colors hover:text-gray-600"
+                  aria-label="Linkedin profile link"
                 >
                   <svg
                     className="h-6 w-6"
@@ -44,6 +46,7 @@ function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-400 transition-colors hover:text-gray-600"
+                  aria-label="Send mail link"
                 >
                   <svg
                     className="h-6 w-6"
